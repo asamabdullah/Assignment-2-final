@@ -1,0 +1,123 @@
+    @media screen and (min-width: 992px) and (max-width: 1520px){
+        
+        .head-banner{
+            justify-content: space-evenly;
+        }
+
+
+        .head-des{
+            margin-left: 5%;
+        }
+
+
+
+        .head-nav{
+            justify-content: space-evenly;
+        }
+
+        .st-h1{
+            margin-top: 50px;
+        }
+
+
+        .head-img-btn1{
+            right: 150px;
+        }
+
+        .head-img-btn2{
+            right: 0px;
+        }
+
+        
+
+        .last-sec-i{
+            width: 250px;
+            height: 220px;
+        }
+
+        
+        
+        .A{
+            width: 270px;
+        }
+        
+
+        .bmi-des{
+            gap: 25px;
+        }
+
+
+        .bmi-chart{
+            margin-left: 15px;
+        }
+
+
+        .bmi-h1{
+            margin-left: 12%;
+        }
+
+        .bmi-p{
+            margin-left: 12%;
+            /* margin-rightpx; */
+            
+        }
+        
+
+        .bmi-Z-div{
+            width: 100%;
+        }
+
+        #Z{
+            width: 100%;
+        }
+
+        .bmi-calc-info{
+            max-width: fit-content;
+        }
+        
+        
+    .foot{
+        /* max-width: fit-content; */
+        /* justify-content: space-evenly; */
+        gap: 40px;
+    }
+
+
+
+    .buy-par-div{
+        flex-direction: column;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .pack1,
+    .pack2,
+    .pack3{
+        margin-top: 25px;
+    }
+
+
+
+    .com{
+        margin-top: 14%;
+        margin-left: 8%;
+    }
+
+    .tra-p{
+        margin-left: 3%;
+    }
+
+
+    .tra2-h1{
+        font-size: 25px;
+        margin-left: 4%;
+    }
+}
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1110px) {
+    .head-img-btn1{
+        margin-left: 70%;
+    }
+}

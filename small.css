@@ -1,0 +1,353 @@
+@media screen and (max-width: 576px) {
+    nav>ul{
+        display: none;
+    
+    }
+
+    .head-nav{
+        justify-content:space-between;
+    }
+
+    .head > .head-nav > h1{
+        margin-left: 0;
+    }
+
+
+    .icon{
+        display: inline;
+        margin-top: 85px;
+        /* max-width: fit-content; */
+        margin-left: 0px;
+        /* margin-right: 20%; */
+    }
+
+    .icon-img{
+        margin-left: 0px;
+    }
+
+    .head-banner{
+        flex-direction: column;
+    }
+    .head-des{
+        margin-left: 0;
+    }
+    .head-des-h1{
+        font-size: 36px;
+        margin-left: 15px;
+    }
+
+    .head-des-p{
+        margin-left: 15px;
+    }
+
+
+    .btn-hold{
+        display: flex;
+        justify-content: center;
+    }
+
+    .new-btn{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 50px;
+        background-color: #E6533C;
+        color: #FFFFFF;
+        width: 169px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        /* padding: 15px 35px; */
+        border-radius: 25px;
+        font-size: 18px;
+        display: inline;
+        border: none;
+    }
+
+    .head-des-btn2{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 50px;
+        background:none;
+        color: #FFFFFF;
+        
+        
+        padding: 13px 25px;
+        border-radius: 25px;
+        font-size: 18px;
+        display: inline;
+    }
+
+    .head-des-btn1{
+        display: none;
+        
+    }
+
+    .head{
+        height: fit-content;
+    }
+
+    .head-img-btn-div{
+        background-image: url(/B10A2-versatile-ui/images/Images\ 2.png);
+        margin-left: auto;
+        margin-right: auto;
+        max-width:350px;
+        padding-right: 35px;
+    }
+
+
+    .head-img-btn1{
+        backdrop-filter: blur(5px);
+        width: 200px;   
+        height: 85px;
+        padding-bottom: 25px;
+        left: 250px;
+        margin-top: 350px;
+    }
+
+    .head-img-btn-h1{
+        padding-right: 45px;
+        font-size: 24px;
+    }
+
+    .head-img-btn-p{
+        font-size: 10px;
+        padding-right: 55px;
+        margin-bottom: 20px;
+    }
+
+
+    .head-img-btn2{
+        left: 10px;
+        position:static;
+        margin-top: 280px;
+        margin-bottom: px;
+    }
+
+    .head-banner{
+        margin-top: 0;
+    }
+
+
+
+    /*section 2 starts from here*/
+
+
+
+
+    .sec1-habit-div{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .sec1-habit-ul{
+        flex-direction: column;
+    }
+
+    .sec1-habit-li{
+       margin-top: 57px;
+    }
+
+     
+
+    /* section 3 starts from here */
+
+
+    .sec3-div2{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+
+
+    .sec3-des-h1{
+    font-size: 40px;
+    }
+
+
+    .sec3-img{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+    /* BMI section starts from here */
+
+
+
+    .bmi-h1{
+        margin-left: 5%;
+        font-size: 35px;
+    }
+
+    .bmi-p{
+        margin-left: 5%;
+    }
+
+    .bmi-des{
+        flex-direction: column;
+    }
+
+
+    .bmi-chart{
+        width: 95%;
+        margin-left: 10px;
+    }
+
+
+
+    .bmi-calc-info{
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 10px;
+        margin-left: 5px;
+    }
+
+
+    .bmi-calc-h1{
+        margin-left: 10px;
+    }
+
+    .bmi-calc-p{
+        margin-left: 10px;
+    }
+
+
+    .A{
+        width: 95%;
+        height: 60px;
+
+    }
+
+
+    #Z{
+        margin-left: 0px;
+        width: 95.5%;
+        margin-left: 7px;
+    }
+
+
+    .calc-btn{
+        margin-left: 10px;
+        padding: 5% 15%;
+    }
+
+
+    .last-sec-img-div{
+        width: 90%;
+        grid-template-columns: repeat(1 , 1fr);
+    }
+
+    .last-sec-img{
+        width: 100%;
+    }
+
+    .last-sec-i{
+        width: 100%;
+    }
+
+    #dis-none{
+        display: none;
+    }
+
+
+    .bmi-table{
+        width: 100%;
+        
+    }
+
+    th,
+    td{
+        padding: 10px 15px;
+        border: 0.5px solid #afafaf;
+    }
+
+
+    /* footer starts from here */
+
+
+    .foot{
+        flex-direction: column;
+        width: 93%;
+        gap: 120px;
+    }
+
+
+    .all-rights{
+        font-size: 20px;
+    }
+
+
+    .foot-div2-ul{
+        margin-top: 25px;
+    }
+
+
+    .buy-par-div{
+        flex-direction: column;
+        width: 90%;
+        margin-left: 5.5%;
+    }
+
+
+    .buy-h1{
+        font-size: 55px;
+    }
+
+    .pack1,
+    .pack2,
+    .pack3{
+        border-radius: 5px;
+        padding: 25px 0 25px 0;
+        margin-top: 25px;
+    }
+
+
+    .pack1-h1,
+    .pack2-h1,
+    .pack3-h1{
+        font-size: 31px;
+    }
+
+    .pack1-li,
+    .pack2-li,
+    .pack3-li{
+        margin-left: 15%
+    }
+
+
+    .input-div{
+        margin-left: 5%;
+    }
+
+    .pack-all-btn{
+        margin-left: 5%;
+    }
+
+
+    .com{
+        margin-top: 75%;
+        font-size: 27px;
+    }
+
+    .tra3-h1{
+        margin-left: 5% ;
+    }
+
+
+    .tra5-h1{
+        margin-right: 25%;
+    }
+
+
+    .tra6-h1{
+        margin-right: 15%;
+    }
+
+
+    .tra-p{
+        position: absolute;
+        color: #a8a8a8;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-right: 45%;
+        margin-top: 85%;
+        font-size: 22px;
+    }
+
+}
